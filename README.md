@@ -17,16 +17,6 @@ npm install
 pnpm install
 ```
 
-## 环境变量配置
-
-可以通过以下环境变量覆盖默认配置：
-
-- `MQ_HOST`: MQ 服务器地址
-- `MQ_PORT`: MQ 服务器端口
-- `MQ_USERNAME`: 连接用户名
-- `MQ_PASSWORD`: 连接密码
-- `MQ_QUEUE`: 队列名称
-
 ## 配置说明
 
 默认 MQ 连接信息已在代码中配置（src/AMQPConsumer.js）：
